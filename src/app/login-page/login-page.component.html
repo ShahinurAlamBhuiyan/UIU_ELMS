@@ -1,0 +1,72 @@
+<!-- component -->
+
+<!-- logo and name -->
+<!-- <div class="bg-white flex justify-center items-center ">
+    <div class="flex my-3 max-h-3">
+        <img src="../../assets/United_International_University_Monogram.svg.png" alt="logo" class="h-auto">
+    </div>
+</div> -->
+
+<!-- logo and name -->
+<div class="flex justify-center items-center m-6 p-5">
+    <div> <img src="../../assets/United_International_University_Monogram.svg.png" alt="logo" class="h-12 w-20"
+            srcset="">
+    </div>
+    <div>
+        <p class="text-2xl font-bold">United International University</p>
+    </div>
+</div>
+
+
+<div class="bg-gray-100 flex justify-center items-center h-screen">
+    <!-- Left: Image -->
+    <div class="h-screen bg-gray-100 flex items-center">
+        <section class="w-full bg-cover bg-center py-32"
+            style="background-image: url('../../assets/IMG_20221009_110556.jpg');">
+            <div class="container mx-auto text-center text-orange-600">
+                <h1 class="text-5xl font-medium mb-6">UIU eLearning Management System</h1>
+            </div>
+        </section>
+    </div>
+
+    <!-- Right: Login Form -->
+    <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
+        <h1 class="text-2xl font-semibold mb-4">Login</h1>
+        <form action="#" method="POST">
+            <!-- Username Input -->
+            <div class="mb-4">
+                <label for="username" class="block text-gray-600">Username</label>
+                <input type="text" id="username" name="username"
+                    class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                    autocomplete="off">
+            </div>
+            <!-- Password Input -->
+            <div class="mb-4">
+                <label for="password" class="block text-gray-600">Password</label>
+                <input type="password" id="password" name="password"
+                    class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-blue-500"
+                    autocomplete="off">
+            </div>
+            <!-- Remember Me Checkbox -->
+            <div class="mb-4 flex items-center">
+                <input type="checkbox" id="remember" name="remember" class="text-blue-500">
+                <label for="remember" class="text-gray-600 ml-2">Remember Me</label>
+            </div>
+            <!-- Forgot Password Link -->
+            <div class="mb-6 text-orange-500">
+                <a href="#" class="hover:underline">Forgot Password?</a>
+            </div>
+            <!-- Login Button -->
+
+            <button type="button"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-md py-2 px-4 w-full"
+                (click)="redirectToHome()">Login
+            </button>
+        </form>
+        <!-- Sign up  Link -->
+        <div class="mt-6 text-black text-center">
+            <p class="my-3"> Don't have an account?</p>
+            <a href="#" class="bg-orange-500 hover:bg-orange-600 text-white rounded-md py-2 px-3 w-full">Register</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+
+
+<!-- Your Angular component template (e.g., app.component.html) -->
+
+<div class="w-full bg-white rounded-md  shadow-md">
+    <div class="p-6">
+        <h2 class="text-xl font-semibold mb-4">Materials</h2>
+
+        <!-- Lecture details form -->
+        <form>
+            <!-- Lecture details fields -->
+            <div class="flex flex-row space-x-4 w-full">
+                <div class="mb-4">
+                    <label for="title" class="block text-sm font-medium text-gray-600">Lecture Details</label>
+                    <input type="text" id="title" name="title" class="mt-1 px-20 py-12 w-full border rounded-md">
+                </div>
+
+                <div class="mb-4 mr-2">
+                    <label for="description" class="block text-sm font-medium text-gray-600">Description</label>
+                    <textarea id="description" name="description" rows="4"
+                        class="mt-1 px-20 py-12 w-full border rounded-md"></textarea>
+                </div>
+
+                <!-- File input area -->
+                <div class="mb-4 mr-2 px-20 py-4">
+                    <label for="file" class="inline-block text-sm font-medium text-gray-600">Upload File</label>
+                    <input type="file" id="file" name="file" class="mt-1 w-full border rounded-md">
+                </div>
+                
+                <div class="mb-4 mr-2">
+                    <label for="title" class="block text-sm font-medium text-gray-600">Date</label>
+                    <input type="text" id="title" name="title" class="mt-1 px-20 py-12 w-full border rounded-md">
+                </div>
+                <div class="mb-4 mr-2">
+                    <label for="title" class="block text-sm font-medium text-gray-600">Deadline</label>
+                    <input type="text" id="title" name="title" class="mt-1 px-20 py-12 w-full border rounded-md">
+                </div>
+                
+            </div>
+            <!-- Additional lecture details fields go here -->
+
+            <!-- Submit button -->
+            <button type="submit"
+                class="bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-md py-2 px-4 w-20">Submit</button>
+        </form>
+        <!-- Lecture details form ends here -->
+    </div>
+</div>
